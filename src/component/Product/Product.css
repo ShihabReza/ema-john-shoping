@@ -1,0 +1,65 @@
+.product img{
+    width:286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.product{
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    
+}
+.produc-name{
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 21px;
+    color: #0E161A;
+    line-height: 25px;
+    margin-top:7px
+}
+.produc-price{
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Lato';
+    color: #0E161A;
+}
+.produc-seller{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Lato';
+    color: #2A414F;
+}
+.produc-rating{
+    font-weight: 400;
+    font-size: 12px;
+    color: #2A414F;
+    font-family: 'Lato';
+}
+.produc-info{
+    margin: 14px;
+
+}
+.produc-info p{
+    margin-bottom: 0px;
+}
+.produc-btn{
+    width:100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border:none;
+    position: absolute;
+    bottom: 0;
+    transition:.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produc-btn:hover{
+    background-color: rgb(40, 26, 243);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
